@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+
+\begin{document}
+
+
+
+Let \(p = \frac{a}{b} , q = \frac{b}{c} , r = \frac{c}{a}\) be rational numbers.
+
+Notice that we don't make the problem stronger with this substitution since \(\forall p,q,r\in\mathbb{Q}\exists a,b,c\in\mathbb{Z}: \left(p,q,r\right)=\left(\frac{a}{b} , \frac{b}{c} , \frac{c}{a}\right)\)
+
+Now, observe that \(\frac{b}{a} = \frac{1}{\frac{a}{b}} = \frac{1}{p} = \frac{pqr}{p} = qr\), thus \(\frac{b}{a} + \frac{c}{b} + \frac{a}{c} = pq+qr+rp\).
+Furthermore, the sum \(p+q+r\) is by definition an integer and the product \(pqr\) is one, also an integer.
+Thus, by Vietta, \(p,q,r\) are the roots of a unary polynomial with integer coefficients, and therefore, integers.
+Thus, since \(pqr=1\), we have \(p,q,r=\pm1\).
+
+\end{document}

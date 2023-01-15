@@ -1,0 +1,10 @@
+;quick
+
+Let ;;p = a/b , q = b/c , r = c/a;; be rational numbers.
+
+Notice that we don't make the problem stronger with this substitution since ;;;A p,q,r;i#Q;E a,b,c;i#Z: (p,q,r)=(a/b , b/c , c/a);;
+
+Now, observe that ;;b/a = 1/ a/b = 1/p = pqr/p = qr;;, thus ;;b/a + c/b + a/c = pq+qr+rp;;.
+Furthermore, the sum ;;p+q+r;; is by definition an integer and the product ;;pqr;; is one, also an integer.
+Thus, by Vietta, ;;p,q,r;; are the roots of a unary polynomial with integer coefficients, and therefore, integers.
+Thus, since ;;pqr=1;;, we have ;;p,q,r=+-1;;.
